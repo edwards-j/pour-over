@@ -1,0 +1,9 @@
+<h1>How strong do you like your coffee?</h1>
+
+<form (ngSubmit)="onSubmit(strengthForm.value)" #strengthForm="ngForm">
+  <input type="radio" name="strength" value="18" [(ngModel)]="strength"/> Weak
+  <input type="radio" name="strength" value="17" [(ngModel)]="strength"/> Average
+  <input type="radio" name="strength" value="16" [(ngModel)]="strength"/> Strong
+  <input type="radio" name="strength" value="15" [(ngModel)]="strength"/> Hulkishly-Strong
+  <button type="submit">next</button>
+</form>

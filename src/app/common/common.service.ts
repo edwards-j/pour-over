@@ -5,8 +5,10 @@ import { Injectable } from '@angular/core';
 })
 export class CommonService {
   yield: number;
-  strength: string;
+  gramsWater: number;
+  strength: number;
   dose: number;
+  brewTime: number;
 
 
   constructor() { }

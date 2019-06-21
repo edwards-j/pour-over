@@ -6,12 +6,18 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { YieldComponent } from './yield/yield.component';
 import { FormsModule } from '@angular/forms';
+import { StrengthComponent } from './strength/strength.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
+import { TimerComponent } from './timer/timer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    YieldComponent
+    YieldComponent,
+    StrengthComponent,
+    ConfirmationComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
